@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#35BE73;
+    text-align: justify;
+}
+header h1{
+    background-color: rgb(69, 189, 22);
+    border-radius: 0px;
+    box-shadow: 5px 5px 15px #12e47b2d;
+    width: 100%;
+    padding: 33px;
+    margin: -2%;
+    color: white;
+    text-align: center;
+ } 
+ header > p {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    background-color: rgb(69, 189, 22);
+    margin: -2%;
+ }
+header > nav {
+    font-family: Arial, Helvetica, sans-serif;    
+    background-color: rgb(69, 189, 22);
+    border-radius: 0px;
+    box-shadow: 5px 5px 15px #12e47b2d;
+    width: 103%;
+    padding: 30px;
+    margin: -2%;
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+     }
+nav > :hover {
+    text-decoration: underline;
+    background-color: yellow;  
+}
+nav > :active {
+    color: #000;
+    padding: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.959);
+}
+main {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    border-radius: 6px;
+    background-color: rgb(238, 238, 238);
+    margin: 2%;
+    padding: 1px;
+    color: rgba(0, 0, 0, 0.986);
+    box-shadow: 7px 8px 20px 0px rgba(0, 0, 0, 0.315);
+    }
+section #noticia{
+    padding: 11px;
+}
+main section > h1{
+    color: rgba(27, 155, 7, 0.986);
+    padding: 11px;
+    padding-top: 0%;
+    font-size: 25px;
+   
+}
+main section > article h2{
+    color: rgba(27, 139, 5, 0.986);
+    background-color: #35be7386;
+    font-size: 20px;
+}
+ section .mascote h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(27, 139, 5, 0.986);
+    font-size: 20px;
+    background-color: #35be7386;   
+ }
+ article p.bug picture{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+ }
+
+ article nav{
+    padding: 7px;
+    margin: -14px;
+ }
+
+ aside #p{
+   background-color: #35BE73;
+   border-radius: 7px 7px 0px 0px;
+   box-shadow: 7px 8px 15px #262c292d;
+}
+ aside h3{
+    background-color: #065c2d;
+    border-radius: 7px 7px 0px 0px;
+    padding: 3px;
+    color: white;
+    margin: 1px;
+ }
+
+ aside > ul{
+   text-decoration: none;
+   text-decoration: underline;
+   columns: 2;
+}
+
+ footer p{
+    text-align: center;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(30, 255, 0);
+    border: 3px solid rgba(0, 0, 0, 0.075);
+    padding: 5px;
+    margin: 11px;
+    outline: 5px;
+    box-shadow: 1px 4px 20px 9px black;
+ }
